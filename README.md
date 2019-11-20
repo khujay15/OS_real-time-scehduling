@@ -2,8 +2,11 @@
 Aperiodic Task real time Scheduling
 
 > Rate-Monotonic Scehduling 알고리즘을 만족하면서 Aperiodic Task의 WaitingTime을 최소화
-> Server의 Period과 Bandwidth, Periodic Task, Aperiod Task Arrival Time 모두 랜덤.
+
 ![Alt Text](https://github.com/khujay15/OS_real-time-scehduling/blob/master/Rate.svg)
+
+Server의 Period과 Bandwidth, Periodic Task, Aperiod Task Arrival Time 모두 랜덤.
+
 
 ##Polling Server
 
