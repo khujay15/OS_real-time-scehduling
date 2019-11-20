@@ -8,12 +8,12 @@ Aperiodic Task real time Scheduling
 Server의 Period과 Bandwidth, Periodic Task, Aperiod Task Arrival Time 모두 랜덤.
 
 
-##Polling Server
+## Polling Server
 
 > 일정한 Period 마다 도착하는 Aperiodic Task를 Bandwidth만큼 수행.
 
 
-###Deferrable Server
+### Deferrable Server
 
 > Period 이내 도착하는 Aperiodic Task를 곧바로 실행. 
  
