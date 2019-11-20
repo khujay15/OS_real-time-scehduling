@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aperiodic task scheduling</title>
+
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h2>2015104215 컴퓨터공학과 장재혁</h2>
+    <div id="app"></div>
+    <table>
+      <tr>
+        <td>
+          <p style="margin-right: 10px">주기적 Task의 갯수:</p>
+        </td>
+        <td>
+          <select style="margin-right: 10px" id="numPeriodicTask">
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </td>
+        <td>
+          <p style="margin-right: 10px">비주기적 Task의 갯수(최소 3개):</p>
+        </td>
+        <td>
+          <input
+            type="text"
+            id="numAperiodicTask"
+            maxlength="2"
+            style="width: 50px"
+          />
+          <input
+            type="button"
+            value="생성"
+            name="createGanttChart"
+            id="createGanttChart"
+          />
+        </td>
+      </tr>
+    </table>
+
+    <div id="tasktable"></div>
+    <div id="polling"></div>
+    <div id="deferrable"></div>
+    <noscript>주의!: 자바스크립트 파일을 실행해야합니다.</noscript>
+    <script src="./index.js"></script>
+    <script src="./makeHTML.js"></script>
+    <script src="./calcNUM.js"></script>
+    <script src="./Scheduling.js"></script>
+  </body>
+</html>
