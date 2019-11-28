@@ -3,6 +3,7 @@ Aperiodic Task real time Scheduling
 
 - Rate-Monotonic Scehduling 알고리즘을 만족하면서 Aperiodic Task의 WaitingTime을 최소화
 - Server의 Period과 Bandwidth, Periodic Task, Aperiod Task Arrival Time 모두 랜덤.
+- Chrome, Safari, IE에서 동작가능
 
 *Rate-monotonic scheduling*.
 
